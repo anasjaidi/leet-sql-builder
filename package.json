@@ -1,10 +1,15 @@
 {
   "name": "leet-sql-builder",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "dist/main.js",
   "repository": "git@github.com:Anasjaidi/leet-sql-builder.git",
   "author": "anas jaidi <anas.jaidi@icloud.com>",
   "license": "MIT",
-  "description": "a open source typescript package that facilitate building sql query's."
-  
+  "description": "a open source typescript package that facilitate building sql query's.",
+  "devDependencies": {
+    "nodemon": "^2.0.22"
+  },
+  "scripts": {
+    "dev": "npx nodemon ./dist/main.js"
+  }
 }
