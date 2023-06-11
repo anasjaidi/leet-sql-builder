@@ -1,0 +1,10 @@
+{
+  "name": "leet-sql-builder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:Anasjaidi/leet-sql-builder.git",
+  "author": "anas jaidi <anas.jaidi@icloud.com>",
+  "license": "MIT",
+  "description": "a open source typescript package that facilitate building sql query's."
+  
+}
