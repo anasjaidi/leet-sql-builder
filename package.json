@@ -7,9 +7,13 @@
   "license": "MIT",
   "description": "a open source typescript package that facilitate building sql query's.",
   "devDependencies": {
+    "@types/pg": "^8.10.2",
     "nodemon": "^2.0.22"
   },
   "scripts": {
     "dev": "npx nodemon ./dist/main.js"
+  },
+  "dependencies": {
+    "pg": "^8.11.0"
   }
 }
